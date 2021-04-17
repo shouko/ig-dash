@@ -1,0 +1,1 @@
+python -m pip install instagram_private_api_extensions
