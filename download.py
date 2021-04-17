@@ -291,6 +291,9 @@ class Downloader(object):
                         init_chunk = self._download(
                             init_segment_url, None, timeout=self.mpd_download_timeout)
 
+                    if not self.stream_id:
+                        self.stream_id = os.path.basename(seg_filename).split("_")[0]
+
                     self._extract(
                         os.path.basename(seg_filename),
                         segment_url,
