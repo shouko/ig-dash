@@ -10,7 +10,7 @@
   - 例如 `https://www.instagram.com/[username]/live/`
 - 取得 playlist 網址
   - 使用開發工具，在 `Network` 中找尋第一個含有 `.mpd` 的 request 並複製網址
-  - 或是，使用以下 JavaScript 貼上在 console 中執行，並複製輸出的網址
+  - 或是，使用以下 JavaScript 貼上在 console 中執行，並複製輸出的網址
 
 ```js
 (() => {
